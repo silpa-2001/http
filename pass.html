@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+</head>
+<body>
+    <label>Enter a number</label>
+    <input type="password" id="pass" placeholder="Enter password" onkeyup="fun()">
+    <p id ="result"></p>
+    <script>
+        function fun(){
+            let a=document.getElementById("pass").value;
+            if(a.length<10)
+            {
+                document.getElementById("result").innerHTML="Weak password";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="Strong password";
+            }
+        }
+    </script>
+</body>
+</html>

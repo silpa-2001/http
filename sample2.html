@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+</head>
+<body>
+    <label>Enter a number</label>
+    <input type="text" id="num">
+    <button onclick="fun()">Find</button>
+    <p id ="result"></p>
+    <script>
+        function fun(){
+            let a=document.getElementById("num").value;
+            if(a%2==0)
+            {
+                document.getElementById("result").innerHTML="Even";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="Odd";
+            }
+        }
+    </script>
+</body>
+</html>
