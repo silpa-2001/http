@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <table id="t1" border="1">
+
+    </table>
+    <button onclick="fun()">Click me</button>
+
+    <script>
+        function fun()
+        {
+            let text="";
+            let arr=["cat","dog","rabbit"]
+            for(let i=0;i<arr.length;i++)
+            {
+                text+="<tr><td>"+arr[i]+"</tr></td>";
+            }
+            document.getElementById("t1").innerHTML=text;
+        }
+    </script>    
+</body>
+</html>
