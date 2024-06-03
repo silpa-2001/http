@@ -1,0 +1,46 @@
+.headin{
+    color: darkcyan;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -200px;
+    margin-top: 50px;
+}
+
+.form{
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #000;
+    max-width: 700px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+.form button{
+    margin-left: 300px;
+    border-radius: 20px;
+    min-width: 100px;
+}
+.form button:hover{
+    font-size: 20px;
+}
+.form input,.form label{
+    margin: 20px;
+    max-width: 500px;
+    margin-left: 100px;
+}
+.form-text{
+    margin-left: 100px;
+}
+.form-check{
+    margin-left: 100px;
+}
+.form-check-label{
+        margin-left: -50px;
+}
+.form-control{
+    max-width: 200px;
+    margin-left: 100px;
+}
+.form-label{
+    margin-bottom:-20px ;
+    
+}
